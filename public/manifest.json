@@ -1,0 +1,8 @@
+{
+  "short_name": "Gaggia Classic",
+  "name": "Gaggica Classic interface ",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
