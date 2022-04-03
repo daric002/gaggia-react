@@ -1,14 +1,17 @@
+import { Grid } from "@mui/material";
 import Temperature from "./Temperature";
 
-interface BodyProps {
-  name: string;
-}
-
-export default function Body(props: BodyProps): JSX.Element {
+export default function Body(): JSX.Element {
   return (
     <main>
-      <Temperature label="Boiler" temperature="89"></Temperature>
-      <Temperature label="Steam" temperature="120"></Temperature>
+      <Grid container>
+        <Grid item sm={6}>
+          <Temperature label="Boiler" temperature="89"></Temperature>
+        </Grid>
+        <Grid item sm={6}>
+          <Temperature label="Steam" temperature="120"></Temperature>
+        </Grid>
+      </Grid>
     </main>
   );
 }

@@ -9,7 +9,7 @@ function App(): JSX.Element {
   return (
     <Container>
       <Header></Header>
-      <Body name="Clarre"></Body>
+      <Body></Body>
       <Footer></Footer>
     </Container>
   );
